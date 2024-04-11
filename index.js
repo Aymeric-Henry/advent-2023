@@ -1,9 +1,6 @@
-import { extractCalibrationFromString, extractCalibrationPart2 } from "./day1/index.js"
+import { checkGamesFromFile } from "./day2/index.js"
 
 
 (async function main() {
-  console.log("===========index.js:5============")
-  console.log("hello")
-  console.log("========Aymeric========")
-  
+  await checkGamesFromFile([12, 13, 14], "./day2/testtoto.txt")
 })()
