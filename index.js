@@ -1,6 +1,12 @@
-import { checkGamesFromFile } from "./day2/index.js"
+import { calculateRewardCamelPokerFromFile, calculateRewardCamelPokerFromFilePart2 } from "./day7/index.js"
 
 
 (async function main() {
-  await checkGamesFromFile([12, 13, 14], "./day2/testtoto.txt")
+const toto =   await calculateRewardCamelPokerFromFilePart2(
+    "./day7/data.txt"
+  )
+  console.log("===========index.js:8============")
+  console.log(toto)
+  console.log("========Aymeric========")
+  
 })()
