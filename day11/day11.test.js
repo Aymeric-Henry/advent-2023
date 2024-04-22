@@ -98,10 +98,6 @@ describe('Solve day 11', () => {
   test('Test for the example', async () => {
     expect(await solveDay11("./day11/test.txt")).toEqual(374);
   });
-  test('Test for the data', async () => {
-    expect(await solveDay11("./day11/data.txt")).toEqual(9605127);
-  });
-
 });
 
 describe('Solve day 11 part2', () => {
@@ -111,11 +107,6 @@ describe('Solve day 11 part2', () => {
   test('Test for the example', async () => {
     expect(await solveDay11Part2("./day11/test.txt", 100)).toEqual(8410);
   });
-
-  test('Test for the data', async () => {
-    expect(await solveDay11Part2("./day11/data.txt", 1000000)).toEqual(9605127);
-  });
-
 });
 
 

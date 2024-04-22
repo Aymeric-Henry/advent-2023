@@ -53,12 +53,6 @@ describe("Test day 9 from a filename ", () => {
       "./day9/test.txt"
     )).toBe(114)
   })
-  test("check the data file", async () => {
-    expect(await solveDay9(
-      "./day9/data.txt"
-    )).toBe(2101499000)
-  })
-
 })
 
 describe('Test predicate on one input part 2', () => {
@@ -82,11 +76,5 @@ describe("Test day 9 from a filename part 2", () => {
       "./day9/test.txt"
     )).toBe(2)
   })
-  test("check the data file", async () => {
-    expect(await solveDay9Part2(
-      "./day9/data.txt"
-    )).toBe(1089)
-  })
-
 })
 

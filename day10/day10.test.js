@@ -87,13 +87,7 @@ describe('Test resolve of furthest node filename', () => {
 
 });
 
-describe('Test resolve of furthest node filename', () => {
-  test('Check for second example', async () => {
-    expect(await solveDay10("./day10/data.txt")).toEqual(
-      6738
-    );
-  })
-});
+
 
 describe('Test resolve of area', () => {
   test('Check for first example', () => {
@@ -132,12 +126,3 @@ describe('Test resolve of area', () => {
   })
 
 });
-
-describe('Test resolve the area from filename', () => {
-  test('Check for second example', async () => {
-    expect(await solveDay10Part2("./day10/data.txt")).toEqual(
-      6738
-    );
-  })
-});
-

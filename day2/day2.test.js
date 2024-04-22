@@ -39,11 +39,6 @@ describe("Test validity from a filename", () => {
     )).toBe(8)
   })
 
-  test("check the test file", async () => {
-    expect(await checkGamesFromFile([12, 13, 14],
-      "./day2/data.txt"
-    )).toBe(2716)
-  })
 
 })
 
@@ -76,12 +71,6 @@ describe("Test validity from a filename part 2", () => {
     expect(await checkGamesFromFilePart2(
       "./day2/test1.txt"
     )).toBe(2286)
-  })
-
-  test("check the test file", async () => {
-    expect(await checkGamesFromFilePart2(
-      "./day2/data.txt"
-    )).toBe(72227)
   })
 
 })

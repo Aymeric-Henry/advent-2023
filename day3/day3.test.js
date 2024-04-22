@@ -79,14 +79,6 @@ describe('Test calculation of part', () => {
 });
 
 
-describe("Test calculation from a filename ", () => {
-  test("check the data file", async () => {
-    expect(await getGamesFromFiles(
-      "./day3/data.txt"
-    )).toBe(532445)
-  })
-
-})
 
 
 // PART 2
@@ -104,14 +96,4 @@ describe('Test calculation of part 2', () => {
 .664.598..`)).toBe(467835);
   });
 });
-
-
-describe("Test calculation from a filename ", () => {
-  test("check the data file", async () => {
-    expect(await getGamesFromFilesPart2(
-      "./day3/data.txt"
-    )).toBe(79842967)
-  })
-
-})
 

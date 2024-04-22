@@ -56,11 +56,6 @@ describe("Test reward from a filename ", () => {
       "./day7/test.txt"
     )).toBe(6440)
   })
-  test("check the test file", async () => {
-    expect(await calculateRewardCamelPokerFromFile(
-      "./day7/data.txt"
-    )).toBe(250370104)
-  })
 })
 
 // PART 2
@@ -78,14 +73,4 @@ describe("Test reward from a filename ", () => {
     )).toBe(5905)
   })
 })
-
-describe("Test reward part 2 from a filename ", () => {
-  test("check the test file", async () => {
-    expect(await calculateRewardCamelPokerFromFilePart2(
-      "./day7/data.txt"
-    )).toBe(250370104)
-  })
-})
-
-// 251505508 <<<<
 

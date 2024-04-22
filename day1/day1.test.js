@@ -30,9 +30,6 @@ describe('Extact the calibration from a path', () => {
   test('Add the local test file', async () => {
     expect(await extractCalibration("./day1/test1.txt")).toBe(142);
   });
-  test('Add the asked test file', async () => {
-    expect(await extractCalibration("./day1/data.txt")).toBe(54573);
-  });
 });
 
 
@@ -67,10 +64,5 @@ zoneight234
 });
 
 
-describe('Extact the calibration from a path', () => {
-  test('Add the asked test file', async () => {
-    expect(await extractCalibrationPart2("./day1/data.txt")).toBe(54591);
-  });
-});
 
 

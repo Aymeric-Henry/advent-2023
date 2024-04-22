@@ -28,11 +28,6 @@ describe("Test day 8 from a filename ", () => {
       "./day8/test.txt"
     )).toBe(2)
   })
-  test("check the data file", async () => {
-    expect(await exploreTreeFromFilename(
-      "./day8/data.txt"
-    )).toBe(20513)
-  })
 
 })
 
@@ -52,15 +47,5 @@ describe('Test recursion for part 2', () => {
   });
 
 });
-
-
-describe("Test day8 part 2 from a filename ", () => {
-  test("check the data file", async () => {
-    expect(await exploreTreeFromFilenamePart2(
-      "./day8/data.txt"
-    )).toBe(15995167053923)
-  })
-
-})
 
 

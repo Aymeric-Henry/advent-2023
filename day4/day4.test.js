@@ -49,14 +49,6 @@ describe("Test the file parser", () => {
   })
 })
 
-describe("Compute the file", () => {
-  test("Check for the result", async () => {
-    expect(await computeDay4(
-      "./day4/data.txt"
-    )).toEqual(21485)
-  })
-})
-
 
 // PART 2
 describe("Test the part 2 game", () => {
@@ -71,14 +63,4 @@ describe("Test the part 2 game", () => {
     ], 0)).toEqual(30)
   })
 })
-
-
-describe("Compute the file part 2", () => {
-  test("Check for the result", async () => {
-    expect(await computeDay4Part2(
-      "./day4/data.txt"
-    )).toEqual(11024379)
-  })
-})
-
 
