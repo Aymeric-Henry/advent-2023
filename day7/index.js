@@ -142,8 +142,6 @@ export function calculateRewardCamelPokerPart2(bids) {
   const localBids = [...bids].map(([hand, bid]) => [hand, bid, getValueOfHandPart2(hand)])
   localBids.sort((a, b) => a[2] - b[2])
 
-  localBids.map(c => console.log(c))
-
   return localBids.reduce((acc, val, i) => acc + val[1] * (i + 1), 0)
 }
 

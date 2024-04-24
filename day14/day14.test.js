@@ -271,9 +271,6 @@ describe('Test from file', () => {
   test('Check test data', async () => {
     expect(await solveDay14Part2("./day14/test.txt")).toBe(64);
   });
-  test('Check test data', async () => {
-    expect(await solveDay14Part2("./day14/data.txt")).toBe(136);
-  });
 
 });
 
