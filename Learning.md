@@ -42,3 +42,6 @@ Be carefull  with new Array(x).fill([])
 as if you write it this way all element of the array share the same reference
 you should write it new Array(x).fill(0).map(() => [])
 
+day 16:
+Straightforward some dumb typing error for part 2 I should have rewrite the traverse in a recursive way to memoize it 
+for performance. but it worked the brute way so i let it be
